@@ -531,7 +531,20 @@ button,
       padding: 0; } }
 
 .header {
-  display: block; }
+  padding: 25px 0; }
+  .header__wrapper {
+    padding: 0 35px; }
+  .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .logo .desk {
+    color: #2c39f2; }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
