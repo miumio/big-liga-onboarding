@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  @@include("source/html/base/preloader.html")
 
   <div style="display: none;">
     @@include("build/img/sprite_auto.svg")
@@ -21,10 +22,10 @@
       <section class="main-intro">
         <h1 class="visually-hidden">сайт компании "Лига а"</h1>
         <div class="main-intro__wrapper">
-          <div class="main-intro__column animation-fade">
+          <div class="main-intro__column">
             <h2>Вёрстка и&nbsp;фронтенд любой сложности</h2>
           </div>
-          <div class="main-intro__column main-intro__about animation-fade">
+          <div class="main-intro__column main-intro__about">
             <span class="main-intro__dino dino">
               <svg width="316" height="289" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="dino__path dino__path--blue dino__flag animation-change-color"
@@ -60,7 +61,7 @@
                 <path
                   d="m143.577 236.33-4.827 4.088 1.2 1.383 4.827-4.087-1.2-1.384ZM147.294 230.897l-.509-1.746 10.064-2.837 2.094 1.433-1.047 1.499-1.383-.949-9.219 2.6Z"
                   fill="currentColor" />
-                <path class="dino__path dino__path--blue animation-fade"
+                <path class="dino__path dino__path--blue"
                   d="m165.359 243.183-.168 1.796 7.871.716.167-1.795-7.87-.717ZM170.61 254.635l-4.82-1.575 1.017-3.473-5.608-1.66.615-2.021 7.615 2.268-1.018 3.52 2.862.939-.663 2.002Z"
                   fill="currentColor" />
                 <path d="M140.894 269.075c-1.806-10.484-10.218-6.907-10.218-6.907l10.218 6.907Z" fill="#fff" />

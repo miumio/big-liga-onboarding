@@ -126,10 +126,13 @@
     display: block;
 
     margin: 20px 0 15px;
-    max-width: 350px;
 
     font-size: 30px;
     line-height: 40px;
+
+    @include viewport--sm {
+      max-width: 350px;
+    }
   }
 
   &__wrapper {

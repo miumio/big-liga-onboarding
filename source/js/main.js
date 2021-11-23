@@ -3,6 +3,7 @@ import {iosVhFix} from './utils/ios-vh-fix';
 
 import {initModals} from './modules/init-modals';
 import {showAbout} from './modules/show-about';
+import {hidePreloader} from './modules/hide-preloader';
 
 // Utils
 // ---------------------------------
@@ -15,3 +16,4 @@ iosVhFix();
 
 initModals();
 showAbout();
+hidePreloader();
