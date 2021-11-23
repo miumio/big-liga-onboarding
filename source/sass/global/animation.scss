@@ -1,0 +1,35 @@
+.animation-change-color {
+  animation: changeColor 7s infinite;
+}
+
+.animation-fade {
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: $color-neon-blue;
+  }
+
+  33% {
+    color: $color-torch-red;
+  }
+
+  66% {
+    color: $color-vivid-violet;
+  }
+
+  100% {
+    color: $color-neon-blue;
+  }
+}

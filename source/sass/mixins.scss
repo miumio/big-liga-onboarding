@@ -18,6 +18,12 @@
   }
 }
 
+@mixin viewport--lg--950 {
+  @media (max-width: $viewport--lg--950 - 1) {
+    @content;
+  }
+}
+
 @mixin viewport--md {
   @media (max-width: $viewport--lg - 1) {
     @content;
@@ -25,7 +31,7 @@
 }
 
 @mixin viewport--sm {
-  @media (max-width: $viewport--md - 1) {
+  @media (max-width: $viewport--md) {
     @content;
   }
 }
