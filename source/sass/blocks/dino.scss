@@ -1,4 +1,18 @@
 .dino {
+  &__path {
+    &--red {
+      color: $color-torch-red;
+    }
+
+    &--violet {
+      color: $color-vivid-violet;
+    }
+
+    @include viewport--sm {
+      color: $color-default-white;
+    }
+  }
+
   &__path--blue {
     color: $color-neon-blue;
 
@@ -10,29 +24,15 @@
   @include viewport--sm {
     color: $color-default-black;
   }
-}
 
-.dino__flag {
-  @include viewport--sm {
-    stroke-width: 1px;
-    stroke: $color-default-black;
-  }
-}
-
-.dino__letter {
-  color: $color-neon-blue;
-}
-
-.dino__path {
-  &--red {
-    color: $color-torch-red;
+  &__flag {
+    @include viewport--sm {
+      stroke-width: 1px;
+      stroke: $color-default-black;
+    }
   }
 
-  &--violet {
-    color: $color-vivid-violet;
-  }
-
-  @include viewport--sm {
-    color: $color-default-white;
+  &__letter {
+    color: $color-neon-blue;
   }
 }

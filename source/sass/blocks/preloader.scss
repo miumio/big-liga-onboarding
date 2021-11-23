@@ -6,8 +6,12 @@
   bottom: 0;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  align-content: center;
+  justify-content: flex-end;
+
+  padding-bottom: 77px;
 
   font-size: 24px;
   line-height: 22px;
@@ -17,4 +21,16 @@
   background-color: $color-default-white;
 
   overflow: hidden;
+
+  &__logo {
+    margin-bottom: 190px;
+
+    @include viewport--lg--950 {
+      transform: scale(90%);
+    }
+
+    @include viewport--sm {
+      transform: scale(80%);
+    }
+  }
 }
