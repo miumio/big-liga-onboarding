@@ -622,6 +622,7 @@ button,
   .main-intro p {
     display: block;
     margin: 20px 0 15px;
+    max-width: 350px;
     font-size: 30px;
     line-height: 40px; }
   .main-intro__wrapper {
@@ -684,8 +685,8 @@ button,
       color: #ffffff;
       background-color: #2c39f2;
       overflow: hidden;
-      -webkit-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out; } }
+      -webkit-transition: 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+      transition: 0.6s cubic-bezier(0.55, 0, 0.1, 1); } }
   @media (max-width: 768px) {
     .main-intro__about--show {
       top: 0;
